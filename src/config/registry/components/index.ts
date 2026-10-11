@@ -309,6 +309,24 @@ export const components = [
     category: categories["accordion"],    
   },
   {
+    name: "accordion-08",
+    title: "Accordion-08 - Roadmap Timeline",
+    description:
+      "Interactive product roadmap and release milestone accordion with status badges, progress indicator, and deliverable checklists.",
+    type: "registry:component",
+    dependencies: ["lucide-react"],
+    registryDependencies: ["accordion", "badge", "button"],
+    files: [
+      {
+        path: "src/components/shadcn-space/accordion/accordion-08.tsx",
+        type: "registry:component",
+        target: "components/shadcn-space/accordion/accordion-08.tsx",
+      },
+    ],
+    category: categories["accordion"],
+    isNew: true,
+  },
+  {
     name: "avatar-01",
     title: "Avatar-01 - Default",
     description: "Default avatar component",
@@ -1842,6 +1860,24 @@ export const components = [
     category: categories["tooltip"],
     isNew:true,
 
+  },
+  {
+    name: "tooltip-10",
+    title: "Tooltip-10 - User Profile Presence",
+    description:
+      "Interactive user profile and live presence card tooltip with avatar pulse, bio, stats, and quick follow actions.",
+    type: "registry:component",
+    dependencies: ["lucide-react"],
+    registryDependencies: ["tooltip", "avatar", "badge", "button"],
+    files: [
+      {
+        path: "src/components/shadcn-space/tooltip/tooltip-10.tsx",
+        type: "registry:component",
+        target: "components/shadcn-space/tooltip/tooltip-10.tsx",
+      },
+    ],
+    category: categories["tooltip"],
+    isNew: true,
   },
   {
     name: "animated-text-01",
